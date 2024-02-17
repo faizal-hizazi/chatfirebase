@@ -1,0 +1,45 @@
+body {
+  overflow: hidden;
+}
+.chatmain {
+  margin-bottom: 10%;
+  margin-top: 11%;
+  display: block;
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.sender {
+  display: flex;
+  box-sizing: border-box;
+  float: right;
+  flex-direction: row-reverse;
+  margin: 1%;
+  width: 60%;
+  border-radius: 1cm 0cm 1cm 1cm;
+  background-color: rgb(15, 91, 178);
+  /* flex-direction: row-reverse; */
+}
+.sender > p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  color: blanchedalmond;
+  padding:20px;
+  
+}
+.receiver {
+  display: flex;
+  float: left;
+  border-radius: 0cm 1cm 1cm 1cm;
+  margin: 1%;
+  width: 60%;
+  background: blanchedalmond;
+  /* margin-bottom: 12%; */
+}
+.receiver > p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  color: brown;
+  padding:20px
+
+}
